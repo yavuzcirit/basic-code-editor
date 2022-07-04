@@ -4,11 +4,18 @@ body {
 
 .top-pane {
   background-color: hsl(225, 6%, 25%);
+  margin-top: 40px !important;
 }
 
 .pane {
   height: 50vh;
   display: flex;
+}
+.preview {
+  margin: auto !important;
+  border: 3px solid green;
+  width: 700px;
+  height: 400px;
 }
 
 .editor-container {

@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <div className="pane">
+      <div className="pane preview">
         <iframe srcDoc={srcDoc} title="output" sandbox="allow-scripts" frameBorder="0" width="100%" height="100%" />
       </div>
       <div className="pane top-pane">
